@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  background: beige;
+}
+#top-video{
+  font-size: 42px;
+  color: white;
+  margin: 100px 480px;
+  text-align: center;
+  position: absolute;
+}
+.app{
+  width: 960px;
+  margin: 50px 400px;
+}
+.app img {
+  width: 200px;
+  height: 200px;
+  border-radius: 90%;
+  border: 1px dotted black;
+  padding: 8px;
+  background-color: rgb(64, 22, 18);
+  transition: 500ms;
+}
+.app img:hover {
+  width: 500px;
+  height: 500px;
+  border-radius: 90%;
+  transform: rotate(360deg);
+}
+#title{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Dancing Script', cursive;
+  font-style: bold;
+}
